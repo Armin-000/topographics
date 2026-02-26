@@ -19,13 +19,12 @@ The project uses Perlin Noise and the Marching Squares algorithm to generate ani
 
 ## Project Structure
 
-.
+```
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-
----
+```
 
 ## How to Run
 
