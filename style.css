@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #141414;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.fx {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(1200px 900px at 50% 45%, rgba(255,138,0,.12), transparent 60%),
+    radial-gradient(1200px 900px at 50% 70%, rgba(0,0,0,.55), rgba(0,0,0,.85));
+}
